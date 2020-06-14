@@ -1,0 +1,226 @@
+.body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global */
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 5px;
+}
+
+/* Header */
+.header {
+	color: white;
+	background: coral;
+}
+
+.header h1 {
+	font-family: Arial;
+	font-size: 50px;
+}
+
+.header ul {
+	list-style: none;
+	text-align: center;
+}
+
+.header li {
+	display: inline;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial;
+	padding-right: 20px;
+	margin-right: 50px;
+}
+
+.header a:hover {
+	color: grey;
+}
+
+/* Showcase */
+.showcase {
+	background: url("../img/adidas.jpg") 0 -100px;
+	min-height: 700px;
+	color: white;
+}
+
+.showcase h1 {
+	font-size: 100px;
+	text-align: center;
+	color: lightcoral;
+	padding-top: 100px;
+}
+
+/* quicklink */
+.quicklink {
+	background-color: lightcoral;
+}
+
+.quicklink ul {
+	list-style: none;
+	text-align: center;
+}
+
+.quicklink li {
+	display: inline;
+}
+
+.quicklink a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding-right: 100px;
+	font-family: Arial;
+}
+
+.quicklink a:hover {
+	color: grey;
+}
+
+/* products */
+.products ul {
+	list-style: none;
+}
+
+.products li img {
+	width: 300px;
+}
+
+.products li {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+}
+
+.products img:hover {
+	width: 305px;
+	border: solid 1px grey;
+}
+
+
+/* form */
+.SignUp {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.SignUp label {
+	font-family: Arial;
+	font-size: 20px;
+	margin-bottom: 20px
+}
+
+.SignUp input {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.SignUp select {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.SignUp input[type="date"] {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* button */
+.button {
+	color: white;
+	background-color: coral;
+	padding: 5px;
+	font-family: Arial;
+}
+
+.button:hover {
+	color: grey;
+}
+
+/* about */
+.about {
+	background: grey;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about h1 {
+	font-size: 30px;
+	font-family: Arial;
+	color: white;
+}
+
+.about p {
+	color: white;
+	font-family: calibri;
+	font-size: 20px;
+	text-align: justify;
+}
+
+/* login */
+.login {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.login label {
+	margin-bottom: 30px;
+}
+
+.login input {
+	padding: 10px;
+
+}
+
+/* footer */
+.footer {
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+/* media */
+
+@media (max-width: 500px) {
+	.quicklink a {
+		padding-right: 30px;
+	}
+
+	.header a {
+		padding-right: 5px;
+		margin-right: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
